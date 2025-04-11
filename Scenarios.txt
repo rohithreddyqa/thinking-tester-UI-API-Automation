@@ -1,0 +1,11 @@
+1. Create user from API and login from the UI
+
+2. Create user from UI and login from API
+
+3. Create user from add user and login from the Login ui 
+
+4. Login user and Log out
+
+5. Delete user after logout
+
+6. Create a contact from UI and access the contact using api

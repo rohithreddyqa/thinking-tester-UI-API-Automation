@@ -1,0 +1,82 @@
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Rohith",
+    "lastName": "Reddy",
+    "email": "rohithreddyqa3535@mailinator.com",
+    "password": "vale-ROSSI"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744314831&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=lUYqAFo9gvdkqhNORfnmtiF9i2rekOfPqQshJyEr1CI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744314831&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=lUYqAFo9gvdkqhNORfnmtiF9i2rekOfPqQshJyEr1CI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y4MjFjZjA5NjkzZDAwMTMxMzU0NmUiLCJpYXQiOjE3NDQzMTQ4MzF9.WC0qiPcgMYuQiOTJXcjHUgFQWvK6uEj_njdqsHp2w0w; Max-Age=684; Path=/; Expires=Thu, 10 Apr 2025 20:05:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 294
+Etag: W/"126-qf9ReeLtbtCrLvX7bqFe1Pzi9n8"
+Date: Thu, 10 Apr 2025 19:53:51 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "67f821cf09693d001313546e",
+        "firstName": "Rohith",
+        "lastName": "Reddy",
+        "email": "rohithreddyqa3535@mailinator.com",
+        "__v": 1
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y4MjFjZjA5NjkzZDAwMTMxMzU0NmUiLCJpYXQiOjE3NDQzMTQ4MzF9.WC0qiPcgMYuQiOTJXcjHUgFQWvK6uEj_njdqsHp2w0w"
+}
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "rohisiri123@fake.com",
+    "password": "myPassword"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1744314832&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=nhrOiHJN%2BdW%2BbpG9d1qXEqfGcAtrcqyArhtIqps6rgY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1744314832&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=nhrOiHJN%2BdW%2BbpG9d1qXEqfGcAtrcqyArhtIqps6rgY%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2E0ZjYxMWZkYzQ5ZDAwMTNlOTBhOTMiLCJpYXQiOjE3NDQzMTQ4MzJ9.-Oic_-EjM3ozhiPYK5O-hgWUTSzUHQJC8xZ5QLJjjoo; Max-Age=36000; Path=/; Expires=Fri, 11 Apr 2025 05:53:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 279
+Etag: W/"117-8NYdYUGA0LPCh7ZuQ/GFuQCPTtA"
+Date: Thu, 10 Apr 2025 19:53:52 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "67a4f611fdc49d0013e90a93",
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "rohisiri123@fake.com",
+        "__v": 14
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2E0ZjYxMWZkYzQ5ZDAwMTNlOTBhOTMiLCJpYXQiOjE3NDQzMTQ4MzJ9.-Oic_-EjM3ozhiPYK5O-hgWUTSzUHQJC8xZ5QLJjjoo"
+}
